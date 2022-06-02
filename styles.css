@@ -1,8 +1,47 @@
+body {
+  background: linear-gradient(to right, #8f94fb, #4e54c8);
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  font-family: Poppins, sans-serif;
+  color: #fff;
+}
+
+.container {
+  width: 100%;
+  margin: 2rem auto 0 auto;
+}
+
+.header {
+  padding: 0 0.625rem;
+  margin-bottom: 1.875rem;
+}
+
+form {
+  background-color: rgba(27, 27, 50, 0.3);
+  padding: 2.5rem 1.5rem;
+  width: 80vw;
+	max-width: 500px;
+	min-width: 300px;
+	margin: 0 auto;
+  padding-bottom: 2rem;
+  border-radius: 5px;
+}
+
 .clue {
-  font-size: 14.4px;
+  font-size: 14px;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-inline .form-control {
+  display: inline-block;
+  width: auto;
 }
 
 label {
   display: block;
-  margin: 0.5rem 0;
+  margin-bottom: 0.5rem;
 }
